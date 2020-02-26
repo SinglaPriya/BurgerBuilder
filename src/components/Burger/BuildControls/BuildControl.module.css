@@ -1,0 +1,13 @@
+.Controls{
+    width: 100%;
+    background-color: burlywood ;
+    color: black;
+    box-shadow: 0px 5px 5px grey;
+    display: flex;
+    flex-flow: column;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 5px;
+}
