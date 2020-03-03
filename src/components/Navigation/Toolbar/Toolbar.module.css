@@ -1,0 +1,30 @@
+.Toolbar{
+    height: 56px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(235, 127, 38);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px ;
+    z-index: 90;
+    box-sizing: border-box;
+
+}
+
+.Toolbar nav{
+    height: 100%;
+    width: auto;
+}
+
+@media (max-width : 500px){
+    .DesktopOnly{
+        display: none;
+    }
+
+    nav{
+        margin-top: 40px;
+    }
+}
